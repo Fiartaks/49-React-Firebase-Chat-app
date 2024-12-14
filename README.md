@@ -23,12 +23,12 @@
 - **Authentication and Persistence**: Manages user sessions and authentication states using Firebase Auth.
 
 ### 2. View
-- **User Interface**: Components like `AuthPage`, `RoomPage`, and `ChatPage` present users with a responsive and interactive UI.
+- **User Interface**: Components like AuthPage, RoomPage, and ChatPage present users with a responsive and interactive UI.
 - **Styling**: Implemented using SCSS for modern design, providing visual coherence across the application.
 
 ### 3. Controller
-- **Business Logic**: Controllers such as `App.js` and Firebase hooks manage user authentication and chat functionality. They facilitate the flow of chat messages and user navigation between pages.
-- **Real-Time Updates**: `ChatPage.js` utilizes Firebase's snapshot feature to listen for real-time message updates and display them instantly.
+- **Business Logic**: Controllers such as App.js and Firebase hooks manage user authentication and chat functionality. They facilitate the flow of chat messages and user navigation between pages.
+- **Real-Time Updates**: ChatPage.js utilizes Firebase's snapshot feature to listen for real-time message updates and display them instantly.
 
 ## 🛠️ What Has Been Done in the Project?
 - 🔄 Implemented real-time messaging with Firebase Firestore.  
